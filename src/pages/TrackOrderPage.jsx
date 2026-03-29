@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { serverUrl } from '../App'
 import { IoIosArrowRoundBack } from "react-icons/io";
-import DeliveryBoyTracking from '../component/DeliveryBoyTracking';
+import DeliveryBoyTracking from '../components/DeliveryBoyTracking';
 import { useSelector } from 'react-redux';
 
 function TrackOrderPage() {

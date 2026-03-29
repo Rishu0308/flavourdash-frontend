@@ -4,7 +4,7 @@ import { FiShoppingCart } from "react-icons/fi"; // ✅ added for bubble icon
 import { categories } from "../category";
 import CategoryCard from "./CategoryCard";
 import { useSelector } from "react-redux";
-import FoodCard from "./foodcard";
+import FoodCard from "./Foodcard";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 

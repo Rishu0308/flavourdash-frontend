@@ -1,9 +1,9 @@
 import React from 'react'
 import { useSelector } from 'react-redux' 
-import UserDashbord from '../component/UserDashboard'
-import OwnerDashboard from '../component/OwnerDashboard'
-import DeliveryBoy from '../component/DeliveryBoy'
-import Nav from '../component/Nav'
+import UserDashbord from '../components/UserDashboard'
+import OwnerDashboard from '../components/OwnerDashboard'
+import DeliveryBoy from '../components/DeliveryBoy'
+import Nav from '../components/Nav'
 
 
 export const Home = () => {

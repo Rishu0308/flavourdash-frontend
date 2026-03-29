@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
-import UserOrderCard from '../component/userOrderCard';
-import OwnerOrderCard from '../component/ownerOrderCard';
+import UserOrderCard from '../components/userOrderCard';
+import OwnerOrderCard from '../components/ownerOrderCard';
 import { setMyOrders, updateRealtimeOrderStatus } from '../redux/userSlice';
 import { Socket } from 'socket.io-client';
 

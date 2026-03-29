@@ -6,7 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { FaStore, FaUtensils, FaShoppingCart } from "react-icons/fa";
 import { FaLocationDot, FaArrowLeftLong } from "react-icons/fa6";
 
-import FoodCard from '../component/foodcard';
+import FoodCard from '../components/foodcard';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

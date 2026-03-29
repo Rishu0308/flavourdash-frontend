@@ -28,7 +28,7 @@ import useGetShopByCity from "./hooks/useGetShopByCity";
 import useGetItemsByCity from "./hooks/useGetItemsByCity";
 import useGetMyOrders from "./hooks/useGetMyOrders";
 import useUpdateLocation from "./hooks/useUpdateLocation";
-import DeliveryBoy from "./component/DeliveryBoy";
+import DeliveryBoy from "./components/DeliveryBoy";
 
 export const serverUrl = "http://localhost:8000";
 
